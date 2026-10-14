@@ -1,0 +1,138 @@
+app:
+
+Japanese: アプリの主要（しゅよう）なコード（処理・モデルなど）を置（お）く場所（ばしょ）
+
+English: Core code of the application (controllers, models, logic).
+
+bootstrap:
+
+Japanese: アプリの起動（きどう）や設定（せってい）の準備（じゅんび）をする場所（ばしょ）
+
+English: Code that boots up and initializes the application.
+
+config:
+
+Japanese: アプリ全体（ぜんたい）の設定（せってい）ファイルを集（あつ）めた場所（ばしょ）
+
+English: Configuration settings for the app (database, mail, services).
+
+database:
+
+Japanese: データベースの作成（さくせい）データやテスト用（よう）データを置（お）く場所（ばしょ）
+
+English: Database migrations, seeders, and factories.
+
+public:
+
+Japanese: 誰（だれ）でもアクセスできる画像（がぞう）やCSSなどの公開（こうかい）場所（ばしょ）
+
+English: Publicly accessible files (images, CSS, JS, index.php).
+
+resources:
+
+Japanese: 画面（がめん）の見た目（みため）を作るファイル（HTMLテンプレート・デザイン素材）の場所（ばしょ）
+
+English: Views (Blade templates), uncompiled assets (CSS/JS), and language files.
+
+routes:
+
+Japanese: どのURLにアクセスした時に何を動（うご）かすか決（き）める場所（ばしょ）
+
+English: URL route definitions (web endpoints, API routes).
+
+storage:
+
+Japanese: アプリが保存（ほぞん）する画像（がぞう）やログ、一時（いちじ）ファイルを置（お）く場所（ばしょ）
+
+English: Uploaded files, logs, and compiled cache files.
+
+tests:
+
+Japanese: アプリが正（ただ）しく動（うご）くかテストするコードを置（お）く場所（ばしょ）
+
+English: Automated test code.
+
+vendor:
+
+Japanese: 外部（がいぶ）からインストールしたライブラリやプログラムが入（はい）る場所（ばしょ）
+
+English: External libraries downloaded via Composer (do not edit manually).
+
+Files (ファイル - File)
+.editorconfig:
+
+Japanese: エディタのコード整形（せいけい）ルール（インデントなど）を設定（せってい）するファイル
+
+English: Code formatting rules (e.g., spaces vs tabs) for editors.
+
+.env:
+
+Japanese: アプリの重要（じゅうよう）な環境（かんきょう）設定（せってい）（パスワードや接続情報）を保存（ほぞん）するファイル
+
+English: Local environment variables (database credentials, API keys).
+
+.env.example:
+
+Japanese: .env の手本（てほん）・サンプルファイル
+
+English: Example template for setting up .env.
+
+.gitattributes / .gitignore:
+
+Japanese: Git管理（かんり）の設定（せってい）ファイル（無視するファイルを指定）
+
+English: Settings for Git version control (specifying files to ignore).
+
+.mcp.json:
+
+Japanese: AIツールの連携（れんけい）設定（せってい）ファイル
+
+English: Model Context Protocol configuration for AI tools.
+
+.npmrc:
+
+Japanese: npm（Node.jsのライブラリ管理）の設定（せってい）ファイル
+
+English: Configuration file for npm packages.
+
+AGENTS.md / CLAUDE.md:
+
+Japanese: AIアシスタントへの指示（しじ）やメモが書かれたファイル
+
+English: Instructions and context guidelines for AI assistants.
+
+artisan:
+
+Japanese: Laravelコマンドを実行（じっこう）するためのプログラム
+
+English: Laravel's command-line interface tool.
+
+composer.json / composer.lock:
+
+Japanese: PHPライブラリの一覧（いちらん）とバージョンを管理（かんり）するファイル
+
+English: PHP dependencies and installed package versions.
+
+package.json:
+
+Japanese: JavaScriptライブラリの一覧（いちらん）を管理（かんり）するファイル
+
+English: JavaScript dependencies and frontend build scripts.
+
+phpunit.xml:
+
+Japanese: PHPUnit（テスト用ツール）の設定（せってい）ファイル
+
+English: Configuration for running PHPUnit tests.
+
+README.md:
+
+Japanese: プロジェクトの説明（せつめい）や使い方（つかいかた）を書いたファイル
+
+English: Project documentation and setup guide.
+
+vite.config.js:
+
+Japanese: フロントエンド（CSS/JS）をまとめるViteの設定（せってい）ファイル
+
+English: Configuration file for the Vite asset bundler.
