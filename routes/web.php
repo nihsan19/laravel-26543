@@ -4,6 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\PageController;
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
 // （最初からある / のルートは、そのまま残す）
 
 Route::get('/top', [PageController::class, 'top'])->name('top');
